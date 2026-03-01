@@ -113,6 +113,22 @@ ul li::before {
   font-weight: bold;
 }
 
+/* especifico para el menú horizontal */
+.hero .navbar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* eliminar el punto y margen en el menú */
+.hero .navbar-nav li {
+  margin-bottom: 0;
+}
+
+.hero .navbar-nav li::before {
+  content: none;
+}
+
 
 
 footer {
